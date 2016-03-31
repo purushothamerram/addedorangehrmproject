@@ -1,0 +1,11 @@
+<suite name="orangehrm demo">
+  <test name="end to end Test">
+    <classes>
+      <class name="com.orangehrm.baseclasses.login"/>
+<class name="com.orangehrm.baseclasses.employeetest"/>
+      <class name="com.orangehrm.baseclasses.Addemployee"/>
+      <class name="com.orangehrm.baseclasses.screenshottest"/>
+ <class name="com.orangehrm.baseclasses.logooutt"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

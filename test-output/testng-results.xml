@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="orangehrm demo" duration-ms="55085" started-at="2016-03-31T10:56:23Z" finished-at="2016-03-31T10:57:18Z">
+    <groups>
+    </groups>
+    <test name="end to end Test" duration-ms="55085" started-at="2016-03-31T10:56:23Z" finished-at="2016-03-31T10:57:18Z">
+      <class name="com.orangehrm.baseclasses.Addemployee">
+        <test-method status="PASS" signature="addemploytest1()[pri:0, instance:com.orangehrm.baseclasses.Addemployee@584ffe5e]" name="addemploytest1" duration-ms="21247" started-at="2016-03-31T16:26:55Z" finished-at="2016-03-31T16:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemploytest1 -->
+      </class> <!-- com.orangehrm.baseclasses.Addemployee -->
+      <class name="com.orangehrm.baseclasses.screenshottest">
+        <test-method status="SKIP" signature="screen(java.lang.String, org.apache.poi.ss.usermodel.Row)[pri:0, instance:com.orangehrm.baseclasses.screenshottest@6bc4fa9d]" name="screen" duration-ms="0" started-at="2016-03-31T16:27:16Z" finished-at="2016-03-31T16:27:16Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method screen requires 2 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method screen requires 2 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+      </class> <!-- com.orangehrm.baseclasses.screenshottest -->
+      <class name="com.orangehrm.baseclasses.employeetest">
+        <test-method status="PASS" signature="employeetaestform()[pri:0, instance:com.orangehrm.baseclasses.employeetest@307af497]" name="employeetaestform" duration-ms="16104" started-at="2016-03-31T16:26:39Z" finished-at="2016-03-31T16:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeetaestform -->
+      </class> <!-- com.orangehrm.baseclasses.employeetest -->
+      <class name="com.orangehrm.baseclasses.logooutt">
+        <test-method status="PASS" signature="logouttes()[pri:0, instance:com.orangehrm.baseclasses.logooutt@512190b1]" name="logouttes" duration-ms="2013" started-at="2016-03-31T16:27:16Z" finished-at="2016-03-31T16:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttes -->
+      </class> <!-- com.orangehrm.baseclasses.logooutt -->
+      <class name="com.orangehrm.baseclasses.login">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.orangehrm.baseclasses.login@78e000bb]" name="logintest" duration-ms="15702" started-at="2016-03-31T16:26:23Z" finished-at="2016-03-31T16:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.orangehrm.baseclasses.login -->
+    </test> <!-- end to end Test -->
+  </suite> <!-- orangehrm demo -->
+</testng-results>
